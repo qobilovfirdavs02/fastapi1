@@ -5,7 +5,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"Hello": "World"}  # Bu yerda asosiy endpoint mavjud
+    return {"Salom ": "Dunyo"}  # Bu yerda asosiy endpoint mavjud
 
 @app.get("/current_time")
 def get_current_time():
